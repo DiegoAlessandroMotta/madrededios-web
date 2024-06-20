@@ -322,13 +322,23 @@ a {
   gap: 0.25rem;
 }
 
+.idioma-icon {
+  height: 2rem;
+  opacity: 0.8;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 .paginas-amigas {
   padding: 2rem 1rem;
 }
 
 .paginas-amigas-contenido {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
   gap: 2rem;
@@ -352,4 +362,13 @@ a {
 
 .pagina-amiga__descripcion {
   color: hsla(0, 0%, 30%);
+  text-align: center  ;
+}
+
+.ultimas-noticias {
+  height: 200px;
+}
+
+.noticia {
+  display: flex;
 }
