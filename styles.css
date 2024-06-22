@@ -433,3 +433,59 @@ a {
   text-align: start;
   display: inline-block;
 }
+.column {
+ /*  width: 25%; */
+  /* float: left; */
+  padding: 10px;
+  border: none; 
+  
+}
+.column .enlace{
+ /*  text-align: start; */
+ justify-content: start;
+ font-size: small;
+}
+.column p {
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+}
+
+.column ul {
+  /* list-style-type: none; */
+ list-style: url("/triangulo.svg");
+  padding: 0;
+  margin-left: 0.8rem;
+}
+.contenedor-datos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+}
+
+.seccion-noticias__descripcion {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.seccion-noticias__descripcion div {
+  display: flex;
+  justify-content: center;
+}.titulo-datos{
+ display: flex;
+ overflow: hidden;
+ gap: 0.5rem;
+ p{
+  white-space: nowrap;
+ }
+}
+.linea{
+  width: 100%;
+  flex-grow: 1;
+  height: 1px;
+  background-color: #fe4641;
+  margin-bottom: auto;
+  margin-top: auto;
+}
